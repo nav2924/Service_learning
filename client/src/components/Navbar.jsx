@@ -13,6 +13,7 @@ const Navbar = () => {
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "/about" },
     { id: 3, name: "Contact", path: "/contact" },
+    { id: 3, name: "Our Approach", path: "/contact" },
   ];
 
   return (
@@ -24,9 +25,7 @@ const Navbar = () => {
             className="h-6 md:h-8"
             alt="Flowbite Logo"
           />
-          <span className="text-lg md:text-xl font-semibold">
-            Abahyam Home Care
-          </span>
+          <span className="text-lg md:text-xl font-semibold">Abhayam</span>
         </div>
         <button
           className="sm:hidden text-gray-600 focus:outline-none"
