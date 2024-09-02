@@ -25,7 +25,9 @@ const Navbar = () => {
             className="h-6 md:h-8"
             alt="Flowbite Logo"
           />
-          <span className="text-lg md:text-xl font-semibold">Abhayam</span>
+          <span className="text-lg md:text-2xl font-bold text-lime-900">
+            Abhayam
+          </span>
         </div>
         <button
           className="sm:hidden text-gray-600 focus:outline-none"
@@ -48,7 +50,7 @@ const Navbar = () => {
         </button>
       </div>
       <ul
-        className={`flex flex-col sm:flex-row gap-8 md:gap-12 mt-4 sm:mt-0 transition-all duration-300 ease-in-out ${
+        className={`flex flex-col text-xl sm:flex-row gap-8 md:gap-12 mt-4 text-green-900 font-semibold sm:mt-0 transition-all duration-300 ease-in-out ${
           isOpen ? "block" : "hidden"
         } sm:flex`}
       >
@@ -64,7 +66,7 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="hidden sm:block mt-4 sm:mt-0">
-        <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2">
+        <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2" >
           <span className="text-center text-xs md:text-sm font-medium leading-none tracking-tight text-white">
             Get Started
           </span>

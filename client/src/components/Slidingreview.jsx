@@ -4,40 +4,40 @@ import Marquee from "@/components/magicui/marquee";
 
 const reviews = [
   {
-    name: "Jack",
-    username: "@jack",
-    body: "I've never seen anything like this before. It's amazing. I love it.",
-    img: "https://avatar.vercel.sh/jack",
+    name: "Rajesh",
+    username: "@rajesh",
+    body: "This center has truly changed my life. I am grateful for the support and care provided here.",
+    img: "https://avatar.vercel.sh/rajesh",
   },
   {
-    name: "Jill",
-    username: "@jill",
-    body: "I don't know what to say. I'm speechless. This is amazing.",
-    img: "https://avatar.vercel.sh/jill",
+    name: "Vikram",
+    username: "@vikram",
+    body: "The environment here is supportive and healing. I feel like a new person.",
+    img: "https://avatar.vercel.sh/vikram",
   },
   {
-    name: "John",
-    username: "@john",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/john",
+    name: "Amit",
+    username: "@amit",
+    body: "The staff is compassionate and understanding. I couldn't have asked for better care.",
+    img: "https://avatar.vercel.sh/amit",
   },
   {
-    name: "Jane",
-    username: "@jane",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jane",
+    name: "Suresh",
+    username: "@suresh",
+    body: "This place helped me regain control of my life. I am forever thankful.",
+    img: "https://avatar.vercel.sh/suresh",
   },
   {
-    name: "Jenny",
-    username: "@jenny",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/jenny",
+    name: "Rohan",
+    username: "@rohan",
+    body: "I was lost, but now I have a new purpose. This center has given me hope.",
+    img: "https://avatar.vercel.sh/rohan",
   },
   {
-    name: "James",
-    username: "@james",
-    body: "I'm at a loss for words. This is amazing. I love it.",
-    img: "https://avatar.vercel.sh/james",
+    name: "Kiran",
+    username: "@kiran",
+    body: "A safe haven for those seeking to rebuild their lives. I highly recommend it.",
+    img: "https://avatar.vercel.sh/kiran",
   },
 ];
 
@@ -87,3 +87,4 @@ export default function Slidingreview() {
     </div>
   );
 }
+
