@@ -13,11 +13,11 @@ const Navbar = () => {
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "/about" },
     { id: 3, name: "Contact", path: "/contact" },
-    { id: 3, name: "Our Approach", path: "/contact" },
+    { id: 3, name: "Our Approach", path: "/approach" },
   ];
 
   return (
-    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50 bg-transparent backdrop-blur-md w-11/12 sm:w-4/5 md:w-3/5 text-center flex flex-col sm:flex-row justify-between items-center p-4 my-4 mx-auto border border-gray-200 rounded-full shadow-lg transition-all duration-300 ease-in-out">
+    <div className="fixed top-0 left-1/2 transform -translate-x-1/2 z-50 s backdrop-blur-md w-11/12 sm:w-4/5 md:w-3/5 text-center flex flex-col sm:flex-row justify-between items-center p-4 my-4 mx-auto border border-gray-200 rounded-full shadow-lg transition-all duration-300 ease-in-out">
       <div className="flex items-center justify-between w-full sm:w-auto">
         <div className="flex items-center gap-3 md:gap-4">
           <img
@@ -66,9 +66,9 @@ const Navbar = () => {
         ))}
       </ul>
       <div className="hidden sm:block mt-4 sm:mt-0">
-        <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2" >
+        <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2">
           <span className="text-center text-xs md:text-sm font-medium leading-none tracking-tight text-white">
-            Get Started
+            Donate Us
           </span>
         </ShimmerButton>
       </div>
