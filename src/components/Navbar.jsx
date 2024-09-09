@@ -12,8 +12,8 @@ const Navbar = () => {
   const Menu = [
     { id: 1, name: "Home", path: "/" },
     { id: 2, name: "About", path: "/about" },
-    { id: 3, name: "Contact", path: "/contact" },
-    { id: 3, name: "Our Approach", path: "/approach" },
+    { id: 3, name: "Approach", path: "/approach" },
+    { id: 4, name: "Contact", path: "/contact" },
   ];
 
   return (
@@ -54,16 +54,18 @@ const Navbar = () => {
           isOpen ? "block" : "hidden"
         } sm:flex`}
       >
-        {Menu.map((item) => (
-          <li key={item.id}>
-            <Link
-              to={item.path}
-              className="hover:underline cursor-pointer hover:scale-105 transition-all ease-in-out"
-            >
-              {item.name}
-            </Link>
-          </li>
-        ))}
+        {Menu.map((item) => {
+          return (
+            <li key={item.id}>
+              <Link
+                to={item.path}
+                className="hover:underline cursor-pointer hover:scale-105 transition-all ease-in-out"
+              >
+                {item.name}
+              </Link>
+            </li>
+          );
+        })}
       </ul>
       <div className="hidden sm:block mt-4 sm:mt-0">
         <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2">

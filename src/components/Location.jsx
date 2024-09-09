@@ -3,12 +3,12 @@ import React from "react";
 const Location = () => {
   return (
     <div>
-      <section class="bg-gradient-to-r from-lime-900 via-lime-200 to-lime-100 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900">
+      <section className="bg-gradient-to-r from-lime-900 via-lime-200 to-lime-100 dark:from-gray-700 dark:via-gray-800 dark:to-gray-900">
         <span className="text-4xl text-lime-950 font-bold flex items-center justify-center flex-items">
           Our Location
         </span>
-        <div class="container px-6 py-12 mx-auto my-auto">
-          <div class="overflow-hidden flex flex-item items-center justify-center w-auto rounded-lg lg:col-span-2 h-auto lg:h-auto">
+        <div className="container px-6 py-12 mx-auto my-auto">
+          <div className="overflow-hidden flex flex-item items-center justify-center w-auto rounded-lg lg:col-span-2 h-auto lg:h-auto">
             <iframe
               width="900px"
               height="550px"
