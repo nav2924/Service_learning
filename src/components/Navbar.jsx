@@ -68,11 +68,13 @@ const Navbar = () => {
         })}
       </ul>
       <div className="hidden sm:block mt-4 sm:mt-0">
-        <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2">
-          <span className="text-center text-xs md:text-sm font-medium leading-none tracking-tight text-white">
-            Donate Us
-          </span>
-        </ShimmerButton>
+        <Link to="/donate">
+          <ShimmerButton className="shadow-xl bg-primary px-3 py-1 md:px-4 md:py-2">
+            <span className="text-center text-xs md:text-sm font-medium leading-none tracking-tight text-white">
+              Donate
+            </span>
+          </ShimmerButton>
+        </Link>
       </div>
     </div>
   );
